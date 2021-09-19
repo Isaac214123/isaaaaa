@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background: skyblue;
+    width: 100%;
+}
+.imagenes{
+    margin: 0;
+    display: inline-block;
+    margin: 10px 30px;
+    
+}
+.imagenes img{
+    width: 220px;
+    height: 180px;
+    width: 50%;
+    float: left;
+  
+}
+
+@media  screen and ( max-width:570px) {
+    body{
+        background-color: white;
+        font-family: 'Courier New', Courier, monospace;
+        width: 100%;
+    }
+
+    .seccion-principal{
+        margin: 15px;
+    }
+
+    .seccion-principal h2{
+        margin-top: 20px;
+    }
+
+    .imagenes{
+        background: brown;
+    
+        
+    }
+
+    .imagenes  img{
+        width: 350px;
+        height: 230px;
+        margin: 20px;
+    }
+
+    .seccion-secundario{
+        margin: 20px;
+        background: coral;
+        
+    }
+
+    .seccion-secundario img{
+        width: 360px;
+        height: 230px;
+        position: relative;
+        left: 30px;
+    }
+
+
+
+ 
+    
+}
